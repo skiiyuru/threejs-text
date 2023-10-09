@@ -33,7 +33,7 @@ const matcapTexture = textureLoader.load("/textures/matcaps/8.png")
  */
 const fontLoader = new FontLoader()
 fontLoader.load(
-  "/fonts/helvetiker_regular.typeface.json",
+  "/fonts/rawson_regular.json",
   (font) => {
     const textGeometry = new TextGeometry("Stephen Kiiyuru", {
       font,
