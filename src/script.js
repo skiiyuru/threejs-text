@@ -61,7 +61,7 @@ fontLoader.load(
     // Donuts
     const torusGeometry = new THREE.TorusGeometry(0.3, 0.2, 20, 40)
 
-    for (let i = 0; i < 300; i++) {
+    for (let i = 0; i < 177; i++) {
       // slice
 
       const mesh = new THREE.Mesh(torusGeometry, material)
